@@ -58,7 +58,8 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
 
-app.use("/api/{*path}", notFoundHandler);
+// Catch-all for API routes that do not match any defined endpoint
+app.use(notFoundHandler);
 
 app.use(errorHandler);
 
