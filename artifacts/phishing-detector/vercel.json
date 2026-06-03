@@ -6,7 +6,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://your-render-backend-url.onrender.com/api/:path*"
+      "destination": "https://ai-phishing-detection-1-zafv.onrender.com/api/:path*"
     },
     {
       "source": "/((?!assets|favicon.ico).*)",
