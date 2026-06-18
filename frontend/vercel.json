@@ -8,7 +8,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://phishguard-api.onrender.com/api/:path*"
+      "destination": "https://major-project-f0zu.onrender.com/api/:path*"
     },
     {
       "source": "/((?!assets|favicon.ico).*)",
